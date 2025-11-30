@@ -40,16 +40,16 @@ display(HTML(html_code))
 
 ## Workmap declaration
 
-| Last name | Student ID | Design Role | Dev Role | Eval Role | Report Role | Ass1 work description (details in text) | Rating | week 2 outcome | week 3 outcome | week 4 outcome  |
+| Last name | Student ID | Design Role | Dev Role | Eval Role | Report Role | Ass1 work description (details in text) | Rating | week 2 outcome | week 3 outcome | week 4 outcome |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **CAO VĨNH PHÁT** | **2212497** | **Yes** | No | No | Yes | **(Platoon 1 - Trưởng nhóm Design)**: Xác định biên giới hệ thống (Source -> Entrance -> Food Stations -> Sink). Xây dựng khung sườn cho `spe_design_buffet.py`. Định nghĩa cấu trúc `MMcNode` và các Enum. | A | Định nghĩa Use Case & Bài toán | Sơ đồ lớp & Cấu trúc dữ liệu | Rà soát thiết kế cuối cùng |
-| **LÊ HẢI NGUYÊN** | **2212294** | No | **Yes** | No | No | **(Platoon 2)**: Lập trình logic chính `SimPy` trong `[version2]`. Cài đặt class `BuffetQueue` dùng `simpy.Resource`. Xử lý logic định tuyến (Routing Matrix) và luồng đi của khách hàng. | A | Nghiên cứu thư viện SimPy | Code vòng lặp mô phỏng chính | Tính năng nâng cao (Reneging & Animation) |
-| **NGUYỄN MINH QUÝ** | **2212868** | No | No | **Yes** | Yes | **(Platoon 3)**: Chạy module `AnalyticalSolver` để kiểm chứng kết quả mô phỏng so với Lý thuyết Hàng đợi (Định luật Little). So sánh kết quả giữa "Experiment A" (Baseline) và "Experiment B" (Stress test). | A | Ôn tập chương 30-33 sách Jain | Kiểm thử bộ giải tích hợp (Solver) | Báo cáo đánh giá sai số & Validation |
-| **NGUYỄN QUANG NGHIÊM** | **2212209** | No | **Yes** | No | No | **(Platoon 2)**: Cài đặt class `ExperimentManager`. Thêm các bộ đếm thống kê (phương pháp Welch loại bỏ sai số đầu, Khoảng tin cậy Student-t). Code phần xuất log ra CSV. | A | Nghiên cứu file `pe7-analysis.pdf` | Cài đặt logic thống kê | Tối ưu code & Sửa lỗi |
-| **NGÔ QUANG TÙNG** | **2213869** | No | No | **Yes** | Yes | **(Platoon 3)**: Quản lý "Snapshot". Làm sạch code `[version2]` để public. Tạo repository Github Public. Đảm bảo output của Colab Notebook được lưu trữ cố định cho việc chấm điểm Phase 3. | A | Thiết lập Github Repo | Review Code (P1 so với P2) | Upload Snapshot cuối cùng & Link Public |
-| **NGUYỄN NGỌC SONG THỦY** | **2213381** | No | No | **Yes** | Yes | **(Platoon 3)**: Viết tài liệu kỹ thuật. Chi tiết hóa việc "Mapping" giữa tham số thực tế (Buffet) và tham số mô hình ($\lambda, \mu, c, K$). Soạn thảo hướng dẫn sử dụng (Manual). | A | Phác thảo đặc tả yêu cầu | Tài liệu Mapping tham số | Tổng hợp báo cáo cuối cùng (.pdf) |
-| **NGUYỄN PHƯƠNG NGUYÊN** | **2212311** | **Yes** | No | No | Yes | **(Platoon 1)**: Định nghĩa tham số Workload (`WL-1` bình thường, `WL-2` cao điểm). Tính toán xác suất chuyển trạng thái cho ma trận định tuyến `R_matrix`. Thiết kế logic ra quyết định của `Customer`. | A | Nghiên cứu về Workload | Định nghĩa tham số Workload | Tinh chỉnh thiết kế |
-| **THÁI ANH KHƯƠNG** | **2113806** | **Yes** | No | No | Yes | **(Platoon 1)**: Ánh xạ các quầy Buffet vào ký hiệu Kendall ($M/M/c/K$). Xác định các ràng buộc dung lượng hệ thống (Max 200 khách). Thiết kế giao diện cho class `Simulation`. | A | Ánh xạ ký hiệu Kendall | Thiết kế Interface | Tích hợp thiết kế cuối cùng |
+| **CAO VĨNH PHÁT** | **2212497** | **Yes** | No | No | Yes | **(Platoon 1 - Trưởng nhóm Design)**: Xác định biên giới hệ thống (Source -> Entrance -> Food Stations -> Sink). Xây dựng khung sườn cho `spe_design_buffet.py`. Định nghĩa cấu trúc `MMcNode` và các Enum. | 100% | Định nghĩa Use Case & Bài toán | Sơ đồ lớp & Cấu trúc dữ liệu | Rà soát thiết kế cuối cùng |
+| **LÊ HẢI NGUYÊN** | **2212294** | No | **Yes** | No | No | **(Platoon 2)**: Lập trình logic chính `SimPy`. Cài đặt class `BuffetQueue` dùng `simpy.Resource`. Xử lý logic định tuyến (Routing Matrix) và luồng đi của khách hàng. | 100% | Nghiên cứu thư viện SimPy | Code vòng lặp mô phỏng chính | Tính năng nâng cao (Reneging & Animation) |
+| **NGUYỄN MINH QUÝ** | **2212868** | No | No | **Yes** | Yes | **(Platoon 3)**: Chạy module `AnalyticalSolver` để kiểm chứng kết quả mô phỏng so với Lý thuyết Hàng đợi (Định luật Little). So sánh kết quả giữa "Experiment A" (Baseline) và "Experiment B" (Stress test). | | | | |
+| **NGUYỄN QUANG NGHIÊM** | **2212209** | No | **Yes** | No | No | **(Platoon 2)**: Cài đặt class `ExperimentManager`. Thêm các bộ đếm thống kê (phương pháp Welch loại bỏ sai số đầu, Khoảng tin cậy Student-t). Code phần xuất log ra CSV. | 100% | Nghiên cứu file `pe7-analysis.pdf` | Cài đặt logic thống kê | Tối ưu code & Sửa lỗi |
+| **NGÔ QUANG TÙNG** | **2213869** | No | No | **Yes** | Yes | **(Platoon 3)**: Quản lý "Snapshot". Làm sạch code để public. Tạo repository Github Public. Đảm bảo output của Colab Notebook được lưu trữ cố định cho việc chấm điểm Phase 3. | | | | |
+| **NGUYỄN NGỌC SONG THỦY** | **2213381** | No | No | **Yes** | Yes | **(Platoon 3)**: Viết tài liệu kỹ thuật. Chi tiết hóa việc "Mapping" giữa tham số thực tế (Buffet) và tham số mô hình ($\lambda, \mu, c, K$). Soạn thảo hướng dẫn sử dụng (Manual). | | | | |
+| **NGUYỄN PHƯƠNG NGUYÊN** | **2212311** | **Yes** | No | No | Yes | **(Platoon 1)**: Định nghĩa tham số Workload (`WL-1` bình thường, `WL-2` cao điểm). Xác định biên giới hệ thống (Source -> Entrance -> Food Stations -> Sink). Tính toán xác suất chuyển trạng thái cho ma trận định tuyến `R_matrix`.   | 100% | Nghiên cứu về Workload | Định nghĩa tham số Workload | Tinh chỉnh thiết kế |
+| **THÁI ANH KHƯƠNG** | **2113806** | **Yes** | No | No | Yes | **(Platoon 1)**: Xác định các ràng buộc dung lượng hệ thống (Max 200 khách). Thiết kế giao diện cho class `Simulation`. | 60% | Ánh xạ ký hiệu Kendall | Thiết kế Interface | Tích hợp thiết kế cuối cùng |
 
 # 2. Thiết kế Hệ thống (System Design)
 
@@ -87,7 +87,7 @@ Nhóm tập trung vào các chỉ số hiệu năng chính sau:
 * **Ma trận định tuyến ($P_{ij}$):** Xác suất chuyển từ trạm $i$ sang trạm $j$ hoặc rời đi ($P_{exit}$).
 
 ## 2.5. Liệt kê các Yếu tố Nghiên cứu (List Factors to Study)
-Đây là các biến số cnhóm nghiên cứu thay đổi qua các kịch bản thực nghiệm:
+Đây là các biến số nhóm nghiên cứu thay đổi qua các kịch bản thực nghiệm:
 * **Cường độ tải ($\lambda$):**
     * *Tải cơ sở (Base Load):* Điều kiện lưu lượng bình thường.
     * *Tải cực đại (Stress Load):* Lưu lượng cao gấp $n$ lần tải cơ sở để kiểm tra độ ổn định.
@@ -104,10 +104,148 @@ Nhóm tập trung vào các chỉ số hiệu năng chính sau:
     * **Lặp lại độc lập (Independent Replications):** Để tính khoảng tin cậy (Student-t, 95%) cho các kết quả mô phỏng.
 
 ## 2.7. Chọn Tải (Select Workload)
-Chúng tôi định nghĩa ba kịch bản tải thực nghiệm riêng biệt:
-1.  **Thực nghiệm A (WL-BASE):** Dòng đến Poisson hằng số ($\lambda_{base}$), Không bỏ hàng. Dùng để kiểm chứng mô hình so với Lý thuyết giải tích.
-2.  **Thực nghiệm B (WL-STRESS):** Tốc độ đến cao ($\lambda_{stress} = n \times \lambda_{base}$), Bật tính năng bỏ hàng (Reneging). Dùng để nghiên cứu hành vi hệ thống khi quá tải.
-3.  **Thực nghiệm C (WL-RAMP):** Tốc độ đến thay đổi theo thời gian (tăng đột biến lúc đầu) để phân tích hành vi quá độ và hiệu quả của việc cắt bỏ giai đoạn khởi động (warmup truncation).
+Nhóm xác định 5 kịch bản tải (Workload Scenarios) được chia thành 3 nhóm mục tiêu chính:
+
+### Nhóm 1: Kịch bản Cơ sở (Baseline Scenarios)
+Dùng để kiểm chứng mô hình và đánh giá hoạt động trong điều kiện tiêu chuẩn.
+
+* **Thực nghiệm A (WL-BASE-NO-REN):**
+    * **Cấu hình:** Tải Poisson chuẩn ($\lambda_{base}$), **Không** có hành vi bỏ hàng (Reneging Disabled).
+    * **Mục tiêu:** Đây là nhóm đối chứng (Control Group). Mục đích chính là để so sánh kết quả mô phỏng với kết quả tính toán từ bộ giải lý thuyết (Analytical Solver - M/M/c/K) nhằm xác nhận (verify) độ chính xác của code mô phỏng.
+
+* **Thực nghiệm B (WL-BASE-REN):**
+    * **Cấu hình:** Tải Poisson chuẩn ($\lambda_{base}$), **Có** hành vi bỏ hàng (Reneging Enabled).
+    * **Mục tiêu:** Đánh giá tác động thực tế của sự mất kiên nhẫn (impatience) đối với độ dài hàng đợi và sự tắc nghẽn trong điều kiện hoạt động bình thường.
+
+### Nhóm 2: Kịch bản Căng thẳng (Stress Scenarios)
+Dùng để kiểm tra giới hạn chịu đựng của hệ thống.
+
+* **Thực nghiệm C (WL-STRESS-NO-REN-X100):**
+    * **Cấu hình:** Cường độ đến tăng gấp 100 lần ($\lambda = 100 \times \lambda_{base}$), Không bỏ hàng.
+    * **Mục tiêu:** Đẩy hệ thống tới giới hạn vật lý để đo lường tỷ lệ từ chối phục vụ tối đa ($P_{reject}$) do hết sức chứa (Blocking probability).
+
+* **Thực nghiệm D (WL-STRESS-REN-X100):**
+    * **Cấu hình:** Cường độ đến tăng gấp 100 lần, Có bỏ hàng.
+    * **Mục tiêu:** Mô phỏng tình huống quá tải thực tế (ví dụ: giờ cao điểm lễ hội). Kịch bản này kiểm tra xem liệu hành vi bỏ hàng có giúp hệ thống "tự cân bằng" và giữ hàng đợi hữu hạn hay không.
+
+### Nhóm 3: Kịch bản Phân tích Quá độ (Transient Analysis Scenario)
+Dùng để kiểm tra kỹ thuật loại bỏ sai số đầu (Transient removal).
+
+* **Thực nghiệm E (WL-RAMP-3X-120M):**
+    * **Cấu hình:** Tải biến thiên theo thời gian. Trong 120 phút đầu (Warmup), cường độ tải tăng gấp 3 lần ($\lambda = 3 \times \lambda_{base}$), sau đó trở về mức bình thường.
+    * **Mục tiêu:** Tạo ra một cú sốc tải trọng (load shock) để kiểm tra hiệu quả của phương pháp Welch trong việc phát hiện và loại bỏ giai đoạn khởi động (warmup truncation), đảm bảo khoảng tin cậy (CI) chỉ được tính trên trạng thái ổn định (steady state).
+
+
+## 2.8. Thiết kế thí nghiệm (Experimental design)
+
+- Cấu trúc hàng đợi (Kendall) & nút
+  - **SOURCE → ENTRANCE 1,2 → 3 quầy A,B,C (feedback) → EXIT**.
+  - **Service Disciple**: tất cả FCFS.
+    - **Entrance j**: $$ M/M/c_{E_j}/K_{E_j} \text{mặc định } c_{E_1}=c_{E_2}=1, K=\infty, \mu_E = 30/\text{giờ} (≈ 2 phút). $$
+    - **A**: $$ M/M/c_A/K_A \text{ mặc định } c_A=3, \mu_A = 20/\text{giờ} (≈ 3 phút).$$
+    - **B**: $$ M/M/c_B/K_B \text{ mặc định } c_B=3, \mu_B = 18/\text{giờ} (≈ 3.333 phút). $$
+    - **C**: $$ M/M/c_C/K_C \text{mặc định } c_C=3, \mu_C = 15/\text{giờ} (≈ 4 phút). $$
+  - **Chọn quầy ở lượt đầu**: đều nhau $$ \boldsymbol{\alpha}=(1/3,\,1/3,\,1/3). $$
+
+
+
+- Định tuyến với “ăn tiếp” sau mỗi món
+  - Sau khi hoàn tất một món tại quầy \(i\):
+    - 20% **rời hệ (EXIT)**,
+    - 20% **quay lại chính quầy \(i\)**,
+    - 30% **sang quầy còn lại 1**,
+    - 30% **sang quầy còn lại 2**.
+
+
+
+- Ma trận chuyển giữa các quầy (không gồm EXIT):
+$$
+R=\begin{bmatrix}
+0.2 & 0.3 & 0.3\\
+0.3 & 0.2 & 0.3\\
+0.3 & 0.3 & 0.2
+\end{bmatrix},\qquad P(\text{EXIT}\mid i)=0.2.
+$$
+Mỗi hàng có tổng \(0.8\).
+
+
+
+- “Visit ratios” (số lượt kỳ vọng tới từng quầy)
+  - Giả sử khách sau **ENTRANCE** vào lượt đầu chọn quầy theo $$\boldsymbol{\alpha}=[\alpha_A,\alpha_B,\alpha_C]$$ (tổng 1).
+
+  - Kỳ vọng **tổng số lượt** tới từng quầy mỗi khách $$\mathbf{v_i}$$ là nghiệm của:
+  $$
+  \mathbf{v}=\boldsymbol{\alpha}+\mathbf{v}R
+  \quad\Longrightarrow\quad
+  \mathbf{v}=\boldsymbol{\alpha}(I-R)^{-1}.
+$$
+  - Với R và $\boldsymbol{\alpha}$ đối xứng như trên ta có: vA = vB = vC = $\frac{5}{3} = $1.66666667
+
+  - Tổng số món trung bình mỗi khách ăn
+  $$
+  \mathbb{E}[N_{\text{món}}]=\mathbf{1}^\top\mathbf{v}=\frac{1}{0.2}=5,
+  $$
+  vì sau mỗi món có 20% rời hệ (biến hình học).
+
+- Tốc độ đến hiệu dụng ở từng quầy ($  \lambda \text{ là tốc độ khách được nhận vào hệ}.$)
+  - Khi đó:
+  $$
+  \lambda_A=\lambda\,v_A,\qquad
+  \lambda_B=\lambda\,v_B,\qquad
+  \lambda_C=\lambda\,v_C.
+  $$
+
+  - Tại **ENTRANCE**:
+  $$
+  \lambda_{E1}=p_{E1}\lambda,\qquad
+  \lambda_{E2}=p_{E2}\lambda,\qquad
+  (p_{E1}+p_{E2}=1).
+  $$
+
+- Thời gian tại từng nút (M/M/c – Erlang-C)
+
+$$
+\text{Với quầy } i \text{ có } c_i \text{server phục vụ, khả năng phục vụ } u_i.
+$$
+$$ - Đặt  \rho_i=\dfrac{\Lambda_i}{c_i\mu_i} \text{(utilization mỗi quầy, yêu cầu) } \rho_i<1. $$
+
+
+$$
+\text{Gọi } C(c_i,\rho_i) \text{là xác suất phải chờ của Erlang-C.}
+$$
+- Thời gian trung bình tại quầy \(i\):
+$$
+\mathbb{E}[T_i]
+= \underbrace{C(c_i,\rho_i)\,\frac{1}{\,c_i\mu_i-\lambda_i\,}}_{\mathbb{E}[W_{q,i}]}
++ \frac{1}{\mu_i}.
+$$
+$$
+\text{Tương tự, với ENTRANCE j: dùng} M/M/c_{E_j} \text{với } \lambda_{E_j}, c_{E_j}, \mu_E \text{để tính } \mathbb{E}[T_{E_j}].
+$$
+
+- Workload Variants (kịch bản tải vào hệ thống)
+  - A – Baseline (Không rời hàng): hệ thống hoạt động bình thường, khách không bỏ hàng; dùng làm chuẩn để so sánh.
+  - B – Baseline + Reneging: giống A nhưng cho phép khách rời hàng sớm nếu chờ quá lâu (patience) → Giúp kiểm tra tác động của impatience lên tắc nghẽn.
+  - C – Stress ×100 (Không rời hàng): tăng λ gấp 100 lần nhằm khảo sát khả năng chịu tải cực hạn; dự kiến gây nghẽn nặng.
+  - D – Stress ×100 + Reneging: tương tự C nhưng có rời hàng; giúp duy trì kích thước hàng hữu hạn.
+  - E – Ramp-Up (Tăng tải 3× trong 120 phút): mô phỏng quá trình hệ thống khởi động với tải tăng dần theo thời gian, sau đó ổn định.
+
+- Replication : Mỗi workload được chạy với 30 replication độc lập
+  - seed khác nhau cho thời gian đến (arrival)
+  - seed cho routing
+  - seed cho service time tại từng quầy
+  - seed cho patience (nếu có reneging)
+
+- Simulation Runner (bộ điều phối thực nghiệm)
+  - Khởi tạo hệ thống mô phỏng: tạo môi trường SimPy, các queue M/M/c/K, mảng seed ngẫu nhiên.
+  - Chạy từng replication:
+    - tạo một instance của BuffetSimulation,
+    - chạy mô phỏng trong thời gian quy định,
+    - thu thập kết quả($E[R]$, $X$, $U$, E[N], P_{reject}, Reneging Rate)
+  - Ghi log ra file CSV theo ba mức::
+    - system level: kết quả của toàn hệ thống,
+    - queue level: từng quầy, từng entrance,
+    - routing level: xác suất chuyển tiếp thực tế giữa các quầy.
 
 ## System Component/Module description
 
@@ -1633,7 +1771,42 @@ if __name__ == "__main__":
 from google.colab import files
 files.download('content.zip')
 
-"""# 10. Conclusions
+"""# 10. Kết luận (Conclusions)
 
-Project coordinator provide the statements of the work's including the superior point and 2-3 limitation provided by the testing member
+### 10.1. Tổng kết Kết quả Công việc
+Dự án đã hoàn thành việc xây dựng và đánh giá một hệ thống mô phỏng sự kiện rời rạc (Discrete-Event Simulation) cho quy trình phục vụ tại nhà hàng buffet đa trạm. Hệ thống được thiết kế dựa trên nền tảng lý thuyết hàng đợi **M/M/c/K**, tích hợp logic định tuyến theo **Chuỗi Markov** và đặc biệt là cơ chế **Reneging** (khách hàng bỏ hàng khi mất kiên nhẫn).
+
+Toàn bộ quy trình—từ việc sinh tải giả lập (workload generator), xử lý luồng khách qua các trạm (Entrance, Grill, Beverage, Dessert) đến thu thập và phân tích số liệu—đều đã được tự động hóa hoàn toàn.
+
+Thông qua quá trình kiểm chứng nghiêm ngặt (**Verification**) với bộ giải tích lý thuyết (Analytical Solver) trong kịch bản cơ sở (Experiment A), mô hình đã chứng minh độ tin cậy cao với mức sai số dưới **3%** cho các chỉ số quan trọng như thời gian đáp ứng ($R$) và thông lượng ($X$). Điều này khẳng định tính đúng đắn của logic hàng đợi cốt lõi mà nhóm đã cài đặt.
+
+### 10.2. Điểm mạnh và Sự vượt trội (Superior Points)
+So với các mô hình lý thuyết cơ bản trong sách giáo khoa, hệ thống mô phỏng thể hiện ba ưu điểm kỹ thuật nổi bật:
+
+1.  **Cơ chế "Tự ổn định" nhờ Reneging (Self-stabilizing Capability):**
+    * Đây là đóng góp quan trọng nhất. Trong khi các công thức toán học truyền thống thường "bó tay" (trả về kết quả vô cực) khi hệ thống quá tải, mô hình mô phỏng của nhóm phản ánh chính xác hành vi thực tế của con người.
+    * *Minh chứng:* Tại kịch bản **Stress Test** (tải tăng gấp 100 lần), hệ thống không bị sụp đổ mà vẫn duy trì trạng thái ổn định với thời gian đáp ứng thấp (~3.48 phút) nhờ việc khách hàng tự động rời bỏ hàng đợi. Đây là tính năng sát thực tế mà mô hình tĩnh không làm được.
+
+2.  **Kiến trúc Module hóa và Kiểm chứng chéo:**
+    * Mã nguồn không viết liền mạch mà được phân tách rõ ràng giữa các lớp: `Simulation` (lõi mô phỏng), `ExperimentManager` (quản lý thí nghiệm) và `AnalyticalSolver` (kiểm chứng toán học).
+    * Thiết kế này cho phép nhóm dễ dàng cấu hình và chạy hàng loạt biến thể workload phức tạp (từ Baseline, Stress đến Ramp-up) chỉ bằng vài dòng lệnh, đồng thời luôn có sự đối chiếu trực tiếp với lý thuyết để đảm bảo tính nhất quán.
+
+3.  **Độ tin cậy Thống kê cao:**
+    * Thay vì chỉ chạy mô phỏng một lần và lấy kết quả ngẫu nhiên, hệ thống áp dụng kỹ thuật **Lặp lại độc lập (Independent Replications)** kết hợp với **Khoảng tin cậy Student-t 95%**.
+    * Bên cạnh đó, phương pháp **Welch** được tích hợp để trực quan hóa và loại bỏ giai đoạn khởi động (warmup), đảm bảo các chỉ số báo cáo phản ánh đúng trạng thái ổn định (steady-state) của hệ thống.
+
+### 10.3. Các Hạn chế (Limitations)
+Mặc dù mô hình đã đáp ứng tốt các yêu cầu thiết kế và vận hành ổn định, quá trình kiểm thử thực tế (Validation) đã chỉ ra 3 hạn chế chính cần cải thiện trong tương lai:
+
+1.  **Thiếu Tài nguyên Chỗ ngồi & Thời gian Ăn (Hạn chế về Phạm vi):**
+    * Mô hình hiện tại giả định khách hàng rời hệ thống ngay sau khi lấy xong đồ ăn. Chúng ta chưa mô phỏng tài nguyên "Bàn ghế" hay khoảng thời gian khách ngồi ăn (`Eating Duration`).
+    * *Hệ quả:* Chỉ số Thời gian Đáp ứng ($R$) hiện tại chỉ đại diện cho sự vất vả khi "đi lấy thức ăn" chứ chưa bao gồm toàn bộ trải nghiệm tại nhà hàng. Trong thực tế, việc hết bàn ăn có thể gây tắc nghẽn ngược ra tận cửa vào.
+
+2.  **Định tuyến Tĩnh (Hạn chế về Hành vi):**
+    * Logic chọn trạm kế tiếp của khách hàng đang dựa trên các xác suất cố định (Static Probabilities).
+    * *Hệ quả:* Khách hàng trong mô hình chưa đủ "thông minh" để thực hiện hành vi **Jockeying** (quan sát thấy hàng nướng đông quá thì đổi sang hàng nước). Điều này có thể dẫn đến việc ước tính thời gian chờ tại các trạm hot cao hơn so với thực tế một chút.
+
+3.  **Giới hạn của Công cụ Kiểm chứng trong điều kiện cực đoan:**
+    * Khi thực hiện Stress Test với tải trọng vượt quá năng lực phục vụ ($\lambda > c\mu$), bộ giải lý thuyết M/M/c/K trả về kết quả lỗi hoặc vô cực ($\infty$).
+    * *Hệ quả:* Nhóm không thể tính toán con số phần trăm sai số (% Error) cụ thể cho các kịch bản quá tải này (Experiment C & D), mà chỉ có thể đánh giá dựa trên hành vi định tính của hệ thống.
 """
